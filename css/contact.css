@@ -1,0 +1,53 @@
+h2 {
+    color: #654321;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    padding: 60px;
+    padding-bottom: 16px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+form {
+    text-align: center;
+    padding-top: 64px;
+    transition: all 4s ease-in-out;
+}
+
+.form-control {
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: #654321;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+input {
+    height: 45px;
+}
+
+form .submit {
+    background: #f89bbd;
+    border-color: transparent;
+    border-radius: 10px;
+    color: #654321;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+form .submit:hover {
+    background-color: #ce7897;
+    cursor: pointer;
+}
+
+@media screen and (max-width:768px) {
+    .form-control {
+        width: 300px
+    }
+}
